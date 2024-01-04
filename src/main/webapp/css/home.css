@@ -1,0 +1,68 @@
+header {
+	height: 200px;
+	background-color: mediumblue;
+}
+
+nav.row {
+	height: 60px;
+	background-color: yellow;
+}
+
+footer {
+	background-color: gray;
+}
+
+.row>article {
+	min-height: 300px;
+	background-color: darkgray;
+}
+
+.row>aside {
+	min-height: 300px;
+	background-color: cyan;
+}
+
+.col-1 {
+	width: 13%
+}
+
+.breadcrumb-item.active {
+	margin-top: 20px;
+}
+
+.card-body {
+	padding: 0;
+}
+
+input[name="search"] {
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	background-color: rgba(255, 255, 255, 0.8);
+	font-size: 18px;
+	color: #000;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+input[name="search"]::placeholder {
+	color: #999;
+}
+/* CSS cho nút tìm kiếm */
+button[type="submit"] {
+	background-color: transparent;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+	color: #333;
+	font-size: 18px;
+	padding: 10px 20px;
+	right: 0;
+	top: 0;
+}
+
+/* CSS cho nút tìm kiếm khi được hover */
+button[type="submit"]:hover {
+	background-color: #333;
+	color: #fff;
+	cursor: pointer;
+}
